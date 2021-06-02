@@ -54,5 +54,4 @@ async def copy(fuck, message):
 
 print("Started your bot")
 print("Send file // any message and party")
-print("Join @logos_by_khush for any help !")
 app.run()
