@@ -17,8 +17,8 @@ BOT_TOKEN = "1891306874:AAFwwdIcAAoW47QEnVvKk4btVbCNT-62Lmw"
 
 app = pyrogram.Client("app", api_id=APP_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
-but = InlineKeyboardMarkup([[InlineKeyboardButton("Hᴇʟᴘ", callback_data="Help"), InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close")],[InlineKeyboardButton("Uᴘᴅᴀᴛᴇs", url="t.me/BotzCity"), InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇʀ", url="t.me/Alain_xD")]])
-butt = InlineKeyboardMarkup([[InlineKeyboardButton("Hᴏᴍᴇ", callback_data="home"), InlineKeyboardButton("Uᴘᴅᴀᴛᴇs", url="t.me/BotzCity")], [InlineKeyboardButton("Rᴇᴘᴏ", url="GitHub.com/BotzCity/ForwardTagRemover"), InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close")]])
+but = InlineKeyboardMarkup([[InlineKeyboardButton("Hᴇʟᴘ", callback_data="Help"), InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close")],[InlineKeyboardButton("Uᴘᴅᴀᴛᴇs", url="t.me/Khushmeet1"), InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇʀ", url="t.me/Khushmeet1")]])
+butt = InlineKeyboardMarkup([[InlineKeyboardButton("Hᴏᴍᴇ", callback_data="home"), InlineKeyboardButton("Uᴘᴅᴀᴛᴇs", url="t.me/Khushmeet1")], [InlineKeyboardButton("Rᴇᴘᴏ", url="GitHub.com/Khushmeet-op/ForwardTagRemoverTest"), InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close")]])
 
 
 @app.on_message(filters.command(["start"]))
@@ -28,7 +28,8 @@ async def start(lel, message):
 @app.on_message(filters.command(["help"]))
 async def help(ha, message):
     await app.send_message(message.chat.id, """**Help\n
-This bot will send back the document/file/pic/video/image/text that you forward, back to you, so that the forwarded from tag is removed and it looks like it's forwarded from the bot!!\n\nMade with ❤️ by @BotzCity**""", reply_markup=butt) 
+This bot will send back the document/file/pic/video/image/text that you forward, back to you, so that the forwarded from tag is removed and it looks like it's forwarded from the bot!!\n\nMade with ❤️ by @Khushmeet1
+**""", reply_markup=butt) 
 
 @app.on_callback_query()
 async def button(app, update):
@@ -53,5 +54,6 @@ async def copy(fuck, message):
 
 print("Started your bot")
 print("Send file // any message and party")
-print("Join @BotzCity for any help !")
+print("Join @logos_by_khush
+for any help !")
 app.run()
