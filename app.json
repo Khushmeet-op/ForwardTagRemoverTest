@@ -9,7 +9,7 @@
         "Alain"
     ],
     "website": "",
-    "repository": "https://github.com/BotzCity/ForwardTagRemover/",
+    "repository": "https://github.com/Khushmeet-op/ForwardTagRemoverTest",
     "success_url": "https://telegram.dog/Alain_xD",
     "env": {
         "BOT_TOKEN": {
